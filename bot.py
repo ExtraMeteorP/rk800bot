@@ -1,6 +1,4 @@
 import discord
-from discord.ext.commands import Bot
-from discord.ext import commands
 
 TOKEN = 'NTI1Mjk4Mzk5MzMxODc2ODg1.DxtzlA._7BTbNo_lWIa-SiGI1rirCbdNFY'
 
