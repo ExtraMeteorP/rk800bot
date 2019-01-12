@@ -38,7 +38,8 @@ async def on_message(message):
         msg = 'Hello {0.author.mention}'.format(message)
         await client.send_message(message.channel, msg)
 
-@client.event
+
+        @client.event
 async def on_ready():
     print('Logged in as')
     print(client.user.name)
