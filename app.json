@@ -1,0 +1,28 @@
+{
+  "name": "RK800Bot-Discord",
+  "description": "Basic discord bot.",
+  "keywords": [
+    "bot",
+    "discord",
+    "tny",
+    "tiny"
+  ],
+  "website": "",
+  "repository": "",
+  "env": {
+    "TOKEN": {
+      "description": "Discord Bot Token",
+      "value": "PUT_YOUR_BOT_TOKEN_HERE"
+    }
+  },
+  "addons": [
+    {
+      "plan": "heroku-postgresql"
+    }
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ]
+}
